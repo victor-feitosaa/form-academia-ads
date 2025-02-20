@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-div">
+            <img src="assets/dumbbell.png" alt="logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="main-div">
+
+            <div class="img-div">
+                <h1>A MAIOR ACADEMIA DA SUA RUA</h1>
+                <h2>Matricule-se agora </h2>
+                <img src="/assets/photo-1637430308606-86576d8fef3c.png"  />
+                
+            </div>
+
+
+            <form>
+                <div class="input-div">
+                    <label for="nome">Nome</label>
+                    <input required type="text" name="nome" id="nome" placeholder="Fulano de tal da Silva">
+                </div>
+
+                <div class="input-div">
+                    <label for="date">Data de Nascimento</label>
+                    <input required type="date" name="date" id="date" >
+                </div>
+
+                <div class="input-div">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email" placeholder="fulanodetal@gmail.com"/>
+                </div>
+
+                <div class="input-div">
+                    <label for="telefone">Telefone</label>
+                    <input required type="tel" name="telefone" id="telefone" placeholder="(00) 0 0000-0000">
+                </div>
+
+                <div class="input-div">
+                    <label for="endereco">Endereço</label>
+                    <input required type="text" name="endereco" id="endereco" placeholder="Rua Tal, N01, Bairro Central">
+                </div>
+
+                <div class="input-div">
+                    <label for="genero">Gênero</label>
+                    <select name="genero" id="genero">
+                        <option value="">Informe como se identifica</option>
+                        <option value="masc">Masculino</option>
+                        <option value="fem">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Tipo de treino</legend>
+
+                        <div class="field-div">
+                            <input type="radio" name="treino" id="basico" value="basico">
+                            <label for="basico">Básico</label>
+                        </div>
+
+                        <div class="field-div">
+                            <input type="radio" name="treino" id="medio" value="medio">
+                            <label for="medio">Intermediario</label>
+                        </div>
+
+                        <div class="field-div">
+                            <input type="radio" name="treino" id="avancado" value="avancado">
+                            <label for="avancado">Avançado</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="btn-div">
+                    <button>FINALIZAR</button>
+                </div>
+
+                <div></div>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            <h4>Desenvolvido por Victor Feitosa</h4>
+        </div>
+    </footer>
+</body>
+</html>
